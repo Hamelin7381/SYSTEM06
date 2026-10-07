@@ -21,4 +21,5 @@ printf()는 시그널 핸들러가 아니라 main()에서 실행한다.
 
 사용한 프롬프트
 1_sigint.c를 수정해서 Ctrl+C를 세 번 누르면 종료되게 해줘. 핸들러에서는 volatile sig_atomic_t 카운터만 증가시키고, printf()는 main()에서 하도록 해줘.
+
 <img width="492" height="147" alt="스크린샷 2026-10-07 121338" src="https://github.com/user-attachments/assets/fad2b35f-844c-4bfd-a191-f96105d47c08" />
